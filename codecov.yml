@@ -1,0 +1,12 @@
+codecov:
+  ci:
+    - "github.com/features/actions"
+  require_ci_to_pass: yes
+
+ignore:
+  - "fedlab/core/hierarchical"
+
+coverage:
+  precision: 2  # decimal number for coverage report on codecov web
+  round: down
+  range: "50...100"  # value range where you want the value to be green
